@@ -1,9 +1,8 @@
 {
-  "id": "did:web:github.com:FabioPinheiro:did",
+  "id": "did:web:raw.githubusercontent.com:FabioPinheiro:did:main",
   "authentication": [
     {
       "id": "did:web:github.com:FabioPinheiro:did#key-2",
-      "controller": "did:web:github.com:FabioPinheiro:did",
       "type": "JsonWebKey2020",
       "publicKeyJwk": {
         "kty": "OKP",
@@ -15,7 +14,6 @@
   "keyAgreement": [
     {
       "id": "did:web:github.com:FabioPinheiro:did#key-1",
-      "controller": "did:web:github.com:FabioPinheiro:did",
       "type": "JsonWebKey2020",
       "publicKeyJwk": {
         "kty": "OKP",
